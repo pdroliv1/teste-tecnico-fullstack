@@ -58,7 +58,7 @@ function App() {
         <p>Dados de Niterói (Integração SIGEO)</p>
         
         <button onClick={sincronizarDados} disabled={carregando}>
-          {carregando ? "Carregando..." : "🔄 Atualizar Lista"}
+          {carregando ? "Carregando" : "Atualizar Lista"}
         </button>
       </header>
 
